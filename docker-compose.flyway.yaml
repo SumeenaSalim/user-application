@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  flyway:
+    image: flyway/flyway:7.10.0
+    command: ["migrate"]
+    volumes:
+      - ./internal/migration/flyway/conf:/flyway/conf
+      - ./internal/migration/flyway/sql:/flyway/sql
