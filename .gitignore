@@ -1,0 +1,57 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, build with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Dependency directories (remove the comment below to include it)
+# vendor/
+
+# Uncomment if you have a Golang module
+# module-cache/
+
+# Local .env file
+.env
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Linux
+*.swp
+
+# Go generated files
+__pycache__/
+*.pyc
+*.pyo
+
+# GoLand project files
+.idea/
+
+# VS Code project files
+.vscode/
+
+# Temporary files
+*.tmp
+*.log
+*.bak
+*.backup
+*.swp
+*~
+
+# Binary
+bin/
+
+# Executable files
+*.exe
+*.out
+*.app
