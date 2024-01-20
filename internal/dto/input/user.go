@@ -7,6 +7,6 @@ type CreateUserRequest struct {
 }
 
 type UpdateUserRequest struct {
-	Name  string `json:"name", omitempty`
-	Email string `json:"email",omitempty validate:"email"`
+	Name  string `json:"name,omitempty"`
+	Email string `json:"email,omitempty", validate:"email"`
 }
