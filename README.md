@@ -10,5 +10,6 @@ For database querying, the application leverages the `Squirrel` package. Squirre
 - docker, docker compose
 
 # Run
+    - change `sample.env` file to `.env` file before running. 
     - `make up` will start the app
     - `make migration` to set the migration
